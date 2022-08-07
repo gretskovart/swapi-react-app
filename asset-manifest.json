@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/swapi-react-app/static/css/main.0a97a7f1.css",
-    "main.js": "/swapi-react-app/static/js/main.f2313033.js",
+    "main.js": "/swapi-react-app/static/js/main.24e093ec.js",
     "index.html": "/swapi-react-app/index.html",
     "main.0a97a7f1.css.map": "/swapi-react-app/static/css/main.0a97a7f1.css.map",
-    "main.f2313033.js.map": "/swapi-react-app/static/js/main.f2313033.js.map"
+    "main.24e093ec.js.map": "/swapi-react-app/static/js/main.24e093ec.js.map"
   },
   "entrypoints": [
     "static/css/main.0a97a7f1.css",
-    "static/js/main.f2313033.js"
+    "static/js/main.24e093ec.js"
   ]
 }
