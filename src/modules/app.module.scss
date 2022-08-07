@@ -1,0 +1,26 @@
+.layout {
+  &.layout_fullScreen {
+    min-height: 100vh;
+  }
+}
+
+.content {
+  padding: 0 50px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+
+  &.header_withSpace {
+    padding: 20px 0;
+    box-sizing: content-box;
+  }
+}
+
+.logo {
+  color: #ffe81f;
+}

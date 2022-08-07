@@ -1,0 +1,28 @@
+{
+  "plugins": ["stylelint-prettier"],
+  "rules": {
+    "prettier/prettier": [true, { "singleQuote": false }],
+    "max-nesting-depth": 5,
+    "at-rule-empty-line-before": [
+      "always",
+      {
+        "ignoreAtRules": ["import", "first-nested"]
+      }
+    ],
+    "number-leading-zero": "always",
+    "order/properties-order": [[], { "severity": "warning" }],
+    "plugin/rational-order": [
+      true,
+      {
+        "border-in-box-model": false,
+        "empty-line-between-groups": true,
+        "severity": "warning"
+      }
+    ]
+  },
+  "extends": [
+    "stylelint-config-prettier",
+    "stylelint-prettier/recommended",
+    "stylelint-config-rational-order"
+  ]
+}
