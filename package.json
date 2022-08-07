@@ -1,6 +1,7 @@
 {
   "name": "swapi-react-app",
   "version": "0.1.0",
+  "homepage": "https://gretskovart.github.io/swapi-react-app/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.3",
@@ -26,6 +27,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -50,6 +52,7 @@
   "devDependencies": {
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "gh-pages": "^4.0.0",
     "node-sass": "^7.0.1",
     "prettier": "^2.7.1",
     "prettier-stylelint": "^0.4.2",

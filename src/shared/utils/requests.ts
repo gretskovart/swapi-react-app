@@ -1,7 +1,7 @@
 import { notification } from 'antd';
 
 export const getParams = (page: number, search: string) => ({
-  ...(search ? { search } : { page }),
+  ...(search ? { search, page } : { page }),
 });
 
 export const showErrorNotification = (description?: string) => {
