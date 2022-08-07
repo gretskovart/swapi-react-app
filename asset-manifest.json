@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gretskovart/swapi-react-app/static/css/main.0a97a7f1.css",
+    "main.js": "/gretskovart/swapi-react-app/static/js/main.8653c03b.js",
+    "index.html": "/gretskovart/swapi-react-app/index.html",
+    "main.0a97a7f1.css.map": "/gretskovart/swapi-react-app/static/css/main.0a97a7f1.css.map",
+    "main.8653c03b.js.map": "/gretskovart/swapi-react-app/static/js/main.8653c03b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a97a7f1.css",
+    "static/js/main.8653c03b.js"
+  ]
+}
