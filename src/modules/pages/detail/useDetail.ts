@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 
@@ -14,9 +14,9 @@ export const useDetail = () => {
   const selector = useSelector((state: RootStateType) => state);
   const getPersonState = selector.swapi.getPerson;
 
-  const onBackClickHandler = () => {
+  const onBackClickHandler = useCallback(() => {
     navigate('/');
-  };
+  }, [navigate]);
 
   useEffect(() => {
     if (id) {

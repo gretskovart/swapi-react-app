@@ -22,13 +22,11 @@ export const useMain = () => {
   const sessionCurrentPage = sessionStorage.getItem(CPEOPLE_CURRENT_PAGE);
   const sessionSearchText = sessionStorage.getItem(PEOPLE_SEARCH);
 
-  const [currentPage, setCurrentPage] = useState<number>(() =>
+  const [currentPage, setCurrentPage] = useState<number>(
     sessionCurrentPage ? +sessionCurrentPage : DEFAULT_PAGE,
   );
 
-  const [searchText, setSearchText] = useState<string>(
-    () => sessionSearchText || '',
-  );
+  const [searchText, setSearchText] = useState<string>(sessionSearchText || '');
 
   const selector = useSelector((state: RootStateType) => state);
   const getPeopleState = selector.swapi.getPeople;
